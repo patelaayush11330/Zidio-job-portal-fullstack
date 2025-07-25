@@ -61,6 +61,7 @@ npm start
 Frontend runs on: `http://localhost:3000`
 
 🔗 API Endpoints
+
 /api/jobs
 * `GET`: Fetch all job postings
 * `POST`: Add new job
