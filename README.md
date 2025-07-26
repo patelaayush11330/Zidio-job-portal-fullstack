@@ -27,14 +27,15 @@ A complete Full Stack **Job Portal** web application built using **Spring Boot (
 📂 Project Structure
 
 Zidio-job-portal-fullstack/
-├── job-portal-frontend/     # React app
-└── job-portal-backend/      # Spring Boot app
+├── job-portal-frontend/     
+└── job-portal-backend/      
 
 🚀 How to Run Locally
 
 1. ✅ Clone the repository
 
 git clone https://github.com/patelaayush11330/Zidio-job-portal-fullstack.git
+
 cd Zidio-job-portal-fullstack
 
 2. ⚙️ Backend Setup (Spring Boot)
@@ -46,8 +47,11 @@ CREATE DATABASE job_portal;
 job-portal-backend/src/main/resources/application.properties
 
 * Run backend:
+
 cd job-portal-backend
+
 mvn clean install
+
 mvn spring-boot:run
 
 API base URL: `http://localhost:8080`
@@ -55,7 +59,9 @@ API base URL: `http://localhost:8080`
 3. 🎨 Frontend Setup (React)
 
 cd job-portal-frontend
+
 npm install
+
 npm start
 
 Frontend runs on: `http://localhost:3000`
